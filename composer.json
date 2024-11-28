@@ -1,0 +1,24 @@
+{
+    "name": "rmax/bladepress",
+    "autoload": {
+        "psr-4": {
+            "Rmax\\Bladepress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rmax",
+            "email": "maxime.renglet@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.16",
+        "jenssegers/blade": "^2.0",
+        "illuminate/view": "11.7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

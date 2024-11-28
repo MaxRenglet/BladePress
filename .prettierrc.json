@@ -1,0 +1,13 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "phpVersion": "8.2",
+    "printWidth": 160,
+    "useTabs": true,
+    "parser": "php",
+    "plugins": [
+        "@prettier/plugin-php"
+    ]
+}
