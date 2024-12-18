@@ -11,10 +11,12 @@
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.2",
+    "@shufo/prettier-plugin-blade": "^1.14.1",
+    "@tailwindcss/typography": "^0.5.15",
     "cross-env": "^7.0.3",
     "laravel-mix": "^6.0.49",
     "mix-tailwindcss": "^1.3.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.81.0",
     "sass-loader": "^16.0.3",

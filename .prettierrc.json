@@ -8,6 +8,27 @@
     "useTabs": true,
     "parser": "php",
     "plugins": [
-        "@prettier/plugin-php"
+        "@prettier/plugin-php",
+        "@shufo/prettier-plugin-blade"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "*.blade.php"
+            ],
+            "options": {
+                "parser": "blade",
+                "tabWidth": 4,
+                "useTabs": false,
+                "wrapAttributes": "auto",
+                "wrapAttributesMinAttrs": 2,
+                "sortTailwindcssClasses": true,
+                "sortHtmlAttributes": "none",
+                "noPhpSyntaxCheck": false,
+                "indentInnerHtml": true,
+                "extraLiners": "",
+                "trailingCommaPHP": true
+            }
+        }
     ]
 }
